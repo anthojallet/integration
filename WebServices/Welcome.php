@@ -1,0 +1,3 @@
+$SMSNumber='33628976749";
+$SMS="Bonjour. Bienvenue et merci pour votre inscription sur assistante-dentaire.info. Le premier mois d'abonnement a été activé gratuitement sur votre compte (et sans obligation pour la suite bien évidemment). Si vous êtes déjà indépendantes, n'hésitez donc pas à mettre à jour l'ensemble de votre profil dans l'espace "paramètres" de votre compte (photo de profil, activation ou non de l'agenda de réservation après avoir mis à jour vos congés…). Demande de support possible depuis le formulaire disponible dans la section « aide » de votre compte (en dessous des vidéos).";
+$xml = file_get_contents("https://0683519080:7107@www.envoyersmspro.com/api/message/send?text=".$SMS."&recipients=".$SMSNumber."&sendername=ASDENT+INFO");
