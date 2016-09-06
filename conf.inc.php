@@ -2,8 +2,8 @@
 
 
 $global['db_host']  = '127.0.0.1:3306';
-$global['db_user']  = 'root';
-$global['db_pass']  = '';
+$global['db_user']  = 'integration';
+$global['db_pass']  = 'integration';
 $global['db_name'] = 'integration';
 
 
