@@ -37,27 +37,27 @@ extract($_GET);
 
 echo "<HTML>";
 echo "<HEAD>";
-echo '<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />'; 
-echo '<script type="application/javascript" src="./js/jquery.js"></script>';  
+echo '<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />';
+echo '<script type="application/javascript" src="./js/jquery.js"></script>';
 echo '<script src="./js/alertify.min.js"></script>';
-echo '<script type="application/javascript" src="./js/integration.js"></script>';  
+echo '<script type="application/javascript" src="./js/integration.js"></script>';
 echo '<link rel="stylesheet" href="./css/alertify.core.css" />';
 echo '<link rel="stylesheet" href="./css/alertify.default.css" />';
 echo '<link rel="stylesheet" href="./css/quizz.css" />';
-echo "</HEAD>";       
-        
+echo "</HEAD>";
+
 echo "<BODY>";
 echo "<div style='margin:0 auto; width:100%;'>";
 
 
-echo "<div style='text-align:center; z-index:2'><img style='z-index:10; margin-left:0; position:relative; height:150px;' src='./res/bib.png'><img style='position:relative; margin-right:100; z-index:10; height:150px;' src='./res/Title.png'></div>";    			
+echo "<div style='text-align:center; z-index:2'><img style='z-index:10; margin-left:0; position:relative; height:150px;' src='./res/bib.png'><img style='position:relative; margin-right:100; z-index:10; height:150px;' src='./res/Title.png'></div>";
 echo "<div style='color:#000000; height:600px; padding-top:20px; text-align:center; position:relative; margin-top:-21px; font-size:12px; width: 100%; background-color:#e5e5e3; font-family:\"Helvetica Neue\",Helvetica,Arial,sans-serif; box-shadow: 0px 2px 1px 0px #ccc; border-style: solid;  border-width:0px; border-color:#ececed;'>";
 echo "<div style='font-size:18px;'>";
 
 
 
 if ($Categ=='1')
-{ 
+{
 
 //poster="./video/Integration_CFT.png"
 
@@ -117,7 +117,7 @@ echo '</div>';
 
 }
 elseif ($Categ=='4')
-{ 
+{
 
 echo '<div style="font-size:12px;">';
 echo '<video poster="./video/Integration - Les Formats dechange - 0 - Introduction.jpg" width="320" height="240" controls="controls">';
@@ -175,7 +175,7 @@ echo '</div>';
 
 }
 elseif ($Categ=='3')
-{ 
+{
 echo '<div style="font-size:12px;">';
 echo '<video poster="./video/Integration - Les WebServices - 0 - Introduction.jpg" width="320" height="240" controls="controls">';
 echo '<source src="./video/Integration_WebServices_Introduction.mp4" type="video/mp4" />';
@@ -232,7 +232,7 @@ echo '</div>';
 
 }
 elseif ($Categ=='2')
-{ 
+{
 echo '<div style="font-size:12px;">';
 echo '<video poster="./video/Integration - EAI,ESB,ETL - 0 - Introduction.jpg" width="320" height="240" controls="controls">';
 echo '<source src="./video/Integration_EAIESBETL_Introduction.mp4" type="video/mp4" />';
@@ -307,40 +307,8 @@ echo "<BR>";
 echo "<div onclick='window.location=\"index.php\"' style='display:inline-block; height:60px; vertical-align:bottom; font-size:12px; color:#000000; width:150px; text-align:center;'><img height=45 px src='./res/menu.png'><BR>Menu</div>";
 echo "</div>";
 
-echo "</BODY>";        
+echo "</BODY>";
 echo "</HTML>";
 mysql_close();
 
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
